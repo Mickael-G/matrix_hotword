@@ -1,0 +1,11 @@
+[Unit]
+Description=Matrix Hotword
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/pi/matrix_hotword/service.py
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target
