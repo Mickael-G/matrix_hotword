@@ -1,6 +1,7 @@
 # Matrix Hotword
 
-This is a small service to toggle the leds on the Matrix Voice
+This is a small service to control the leds on the Matrix Voice.
+When a hotword is detected, the leds go green and then return to blue.
 
 Many thanks to https://github.com/syntithenai/opensnips, I am using the MQTT code they created.
 
